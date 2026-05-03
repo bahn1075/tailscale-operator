@@ -1,0 +1,7 @@
+# Optional overlay for exposing this cluster's Kubernetes API through Tailscale.
+# Use together with values.yaml:
+#   helm upgrade --install ... -f values.yaml -f values-apiserver-proxy.yaml
+
+apiServerProxyConfig:
+  mode: "true"
+  allowImpersonation: "true"

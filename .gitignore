@@ -1,0 +1,4 @@
+/backups/
+*.secret.yaml
+*.tmp
+.DS_Store
